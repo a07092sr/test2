@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ｜リーフ製薬株式会社　商品サイト</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/leaf_style.css">
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+
+<body id="top">
+    <header class="header">
+        <div class="header__inner">
+            <h1 class="logo">
+                <a href="index.html#top"><img src="img/leaf_logo_green.svg" alt="リーフ製薬株式会社" class="logo-green"></a>
+                <a href="index.html#top"><img src="img/leaf_logo.svg" alt="リーフ製薬株式会社" class="logo-white"></a>
+            </h1>
+            <button class="nav-btn icon">
+                <img src="img/icons/qlementine-icons--menu-burger-16.svg" width="40" height="40" alt="メニュー"
+                    aria-label="メニューを開く" class="icon__menu">
+                <img src="img/icons/qlementine-icons--close-16.svg" alt="閉じる" aria-label="メニューを閉じる" class="icon__close">
+            </button>
+            <nav>
+                <ul class="gnav">
+                    <li><a href="index.html#products">商品紹介</a></li>
+                    <li><a href="index.html#about">リーフ製薬の想い</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="contact-hero">
+            <h2>お問い合わせフォーム</h2>
+        </div>
+
+        <div class="section-group">
+            <section id="contact">
+                <p>以下のフォームにお問い合わせ内容を入力してください。</p>
+
+                <form action="#" id="form" class="input-form">
+
+                    <div class="input-item">
+                        <label for="name" class="input-title">お名前
+                            <span class="required">必須</span>
+                        </label>
+                        <input type="text" name="name" id="name" class="input-field" placeholder="姓　名">
+                    </div>
+
+                    <div class="input-item">
+                        <label for="furigana" class="input-title">おなまえ<span class="furigana">(ふりがな)</span>
+                        </label>
+                        <input type="text" name="furigana" id="furigana" class="input-field" placeholder="せい　めい">
+                    </div>
+
+                    <div class="input-item">
+                        <label for="email" class="input-title">メールアドレス
+                            <span class="required">必須</span>
+                        </label>
+                        <input type="email" name="email" id="email" class="input-field" placeholder="email@email.com">
+                    </div>
+
+                    <div class="input-item">
+                        <label for="prefecture" class="input-title">お買い上げ店名</label>
+                        <div class="shop_name">
+                            <span>都道府県をお選びください</span>
+                            <select name="prefecture" id="prefecture" class="input-field">
+                                <option value="" selected>－</option>
+                                <option value="北海道">北海道</option>
+                                <option value="青森県">青森県</option>
+                                <option value="岩手県">岩手県</option>
+                                <option value="宮城県">宮城県</option>
+                                <option value="秋田県">秋田県</option>
+                                <option value="山形県">山形県</option>
+                                <option value="福島県">福島県</option>
+                                <option value="茨城県">茨城県</option>
+                                <option value="栃木県">栃木県</option>
+                                <option value="群馬県">群馬県</option>
+                                <option value="埼玉県">埼玉県</option>
+                                <option value="千葉県">千葉県</option>
+                                <option value="東京都">東京都</option>
+                                <option value="神奈川県">神奈川県</option>
+                                <option value="新潟県">新潟県</option>
+                                <option value="富山県">富山県</option>
+                                <option value="石川県">石川県</option>
+                                <option value="福井県">福井県</option>
+                                <option value="山梨県">山梨県</option>
+                                <option value="長野県">長野県</option>
+                                <option value="岐阜県">岐阜県</option>
+                                <option value="静岡県">静岡県</option>
+                                <option value="愛知県">愛知県</option>
+                                <option value="三重県">三重県</option>
+                                <option value="滋賀県">滋賀県</option>
+                                <option value="京都府">京都府</option>
+                                <option value="大阪府">大阪府</option>
+                                <option value="兵庫県">兵庫県</option>
+                                <option value="奈良県">奈良県</option>
+                                <option value="和歌山県">和歌山県</option>
+                                <option value="鳥取県">鳥取県</option>
+                                <option value="島根県">島根県</option>
+                                <option value="岡山県">岡山県</option>
+                                <option value="広島県">広島県</option>
+                                <option value="山口県">山口県</option>
+                                <option value="徳島県">徳島県</option>
+                                <option value="香川県">香川県</option>
+                                <option value="愛媛県">愛媛県</option>
+                                <option value="高知県">高知県</option>
+                                <option value="福岡県">福岡県</option>
+                                <option value="佐賀県">佐賀県</option>
+                                <option value="長崎県">長崎県</option>
+                                <option value="熊本県">熊本県</option>
+                                <option value="大分県">大分県</option>
+                                <option value="宮崎県">宮崎県</option>
+                                <option value="鹿児島県">鹿児島県</option>
+                                <option value="沖縄県">沖縄県</option>
+                            </select>
+                            <input type="text" name="shop_name" class="input-field" placeholder="店名（例：〇〇薬局 渋谷店）">
+                        </div>
+                    </div>
+
+                    <div class="input-item">
+                        <fieldset>
+                            <legend class="input-title">
+                                お問い合わせ区分
+                            </legend>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <label><input type="radio" name="category" value="opinion" checked>
+                                            ご意見・ご要望</label>
+                                    </li>
+                                    <li>
+                                        <label><input type="radio" name="category" value="defective">
+                                            不良品について</label>
+                                    </li>
+                                    <li>
+                                        <label><input type="radio" name="category" value="question">
+                                            商品に関するご不明点</label>
+                                    </li>
+                                    <li>
+                                        <label><input type="radio" name="category" id="radio-other" value="other">
+                                            その他</label>
+                                        <div id="other-text">
+                                            <input type="text" id="other-textbox" name="other_text" class="input-field"
+                                                placeholder="お問い合わせ件名を入力してください">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </fieldset>
+
+                    </div>
+
+                    <div class="input-item">
+                        <label for="message" class="input-title">お問い合わせ内容
+                            <span class="required">必須</span>
+                        </label>
+                        <textarea name="message" id="message" rows="8" class="input-field"
+                            placeholder="お問い合わせ内容を入力してください"></textarea>
+                    </div>
+
+                    <div class="input-item">
+                        <label class="privacy-item"><input type="checkbox" name="privacy-check" id="privacy-check" value="agree">
+                            <a href="#" class="privacy-link">プライバシーポリシー</a>に同意する</label>
+                    </div>
+
+                    <button type="submit" class="btn __submit" disabled>送信する</button>
+
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <button class="go-top icon">
+            <img src="img/icons/qlementine-icons--arrow-up-16.svg" alt="↑" icon__img aria-label="トップへ戻る">
+        </button>
+        <div class="footer__inner">
+            <ul class="lnav">
+                <li><a href="index.html"><small>ホーム</small></a></li>
+                <li><a href="contact.html"><small>お問い合わせ</small></a></li>
+                <li><a href="#"><small>企業情報サイト（別サイト）</small></a></li>
+            </ul>
+            <ul class="sns">
+                <li class="twitter"><a href="#" class="icon__sns"><img src="img/icons/qlementine-icons--x-16.svg"
+                            alt="twitter" class="icon__img"></a>
+                </li>
+                <li class="instagram"><a href="#" class="icon__sns"><img
+                            src="img/icons/qlementine-icons--instagram-16.svg" alt="instagram" class="icon__img"></a>
+                </li>
+                <li class="YouTube"><a href="#" class="icon__sns"><img src="img/icons/qlementine-icons--youtube-16.svg"
+                            alt="YouTube" class="icon__img"></a>
+                </li>
+                <li class="tiktok"><a href="#" class="icon__sns"><img src="img/icons/qlementine-icons--tiktok-16.svg"
+                            alt="tiktok" width="40" height="40" class="icon__img"></a>
+                </li>
+            </ul>
+            <ul class="policy">
+                <li><a href="#"><small>プライバシーポリシー</small></a></li>
+                <li><a href="#"><small>セキュリティポリシー</small></a></li>
+                <li><a href="#"><small>ソーシャルメディアポリシー</small></a></li>
+            </ul>
+            <small>&copy; 2026 Leaf Pharma Company.</small>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/jquery.smooth-scroll.js"></script>
+    <script src="js/leaf_main.js"></script>
+</body>
+
+</html>
